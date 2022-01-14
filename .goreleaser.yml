@@ -4,8 +4,16 @@ builds:
     binary: "lazymonty"
     env:
       - CGO_ENABLED=0
+    goos:
+      - linux
+      - drawin
+      - windows
   - id: "normalmonty"
     main: ./cmd/normalmonty
     binary: "normalmonty"
     env:
       - CGO_ENABLED=0
+    goos:
+      - linux
+      - drawin
+      - windows
