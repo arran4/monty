@@ -6,7 +6,7 @@ builds:
       - CGO_ENABLED=0
     goos:
       - linux
-      - drawin
+      - darwin
       - windows
   - id: "normalmonty"
     main: ./cmd/normalmonty
@@ -15,5 +15,5 @@ builds:
       - CGO_ENABLED=0
     goos:
       - linux
-      - drawin
+      - darwin
       - windows
