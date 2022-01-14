@@ -1,0 +1,9 @@
+builds:
+  - id: "dev"
+    binary: "lazymonty"
+    env:
+      - CGO_ENABLED=0
+  - id: "dev"
+    binary: "normalmonty"
+    env:
+      - CGO_ENABLED=0
