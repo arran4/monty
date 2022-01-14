@@ -1,10 +1,10 @@
 builds:
-  - id: "dev"
+  - id: "lazymonty"
     main: ./cmd/lazymonty
     binary: "lazymonty"
     env:
       - CGO_ENABLED=0
-  - id: "dev"
+  - id: "normalmonty"
     main: ./cmd/normalmonty
     binary: "normalmonty"
     env:
